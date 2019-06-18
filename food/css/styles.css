@@ -1,0 +1,134 @@
+body{
+  padding-top: 70px;
+
+}
+.title {
+  text-align: center;
+  background-color: #A6EBDB;
+  margin: 0;
+  padding-top:30px;
+  padding-bottom:25px;
+
+  border: 5px;
+}
+
+.intro p {
+  padding-top: 15px;
+  text-align: justify;
+}
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+
+.carousel-item {
+  max-height: 350px;
+}
+
+.carousel-caption {
+    color: white;
+    right: 30%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    top: 40%;
+}
+
+.small-steps {
+  padding-top: 20px;
+  padding-bottom: 12px;;
+  text-align: center;
+  background-color: #C2E9FF;
+  margin-bottom: 30px;
+}
+
+.small-steps h3 {
+  font-weight: bold;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #A5A8E8;
+}
+
+#waste {
+  padding: 0;
+  margin: 10px;
+}
+
+#shopping {
+  padding: 0;
+  margin: 10px;
+}
+
+#diet {
+  padding: 0;
+  margin: 10px;
+}
+
+figure {
+  margin: 0;
+}
+
+
+.hovertext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+  padding: 0;
+}
+
+/*DIET CSS*/
+.intro-diets h1 {
+  padding-top: 15px;
+}
+
+.intro-diets img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.widget-diet-intro {
+  display: flex;
+  align-items: center;
+}
+.widget-diet-intro:before {
+  content: '[';
+  color: #A5A8E8;
+  font-size: 150px;
+  text-align: right;
+  padding-right: 10px;
+}
+.widget-diet-intro:after {
+  content: ']';
+  color: #A5A8E8;
+  font-size: 150px;
+  text-align: left;
+  padding-left: 10px;
+}
