@@ -86,11 +86,11 @@ figure {
 }
 
 
-.hovertext {
+.hovertext h1 {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -98,10 +98,21 @@ figure {
   text-align: center;
 }
 
+.hovertext p {
+  color: white;
+  font-size: 14px;
+  text-align: justify;
+  position: absolute;
+  top:15%;
+  padding: 10px;
+
+}
+
 figure:hover .overlay {
   opacity: 1;
   padding: 0;
 }
+
 
 /*DIET CSS*/
 .intro-diets h1 {
