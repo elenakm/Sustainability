@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 
 styles/.DS_Store
+=======
+# Add files to ignore here
+
+# MacOS files
+.DS_Store
+>>>>>>> 4a7e4f4eaad27fbb35a0ff5dbc7235e36b0e9cc9
