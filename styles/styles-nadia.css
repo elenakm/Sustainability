@@ -1,5 +1,15 @@
 body {
    font-family:verdana;
+   
+}
+.title {
+  text-align: center;
+  background-color: #A6EBDB;
+  margin: 0;
+  padding-top:30px;
+  padding-bottom:25px;
+
+  border: 5px;
 }
 
 ul.a {
