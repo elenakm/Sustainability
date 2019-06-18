@@ -2,11 +2,19 @@ body {
   margin: 0px;
 }
 h1 {
-    text-align: center;
-      font-size: 5em;
-    }
+  text-align: center;
+  font-size: 5em;
+}
 h2 { text-align: center;
-font-size: 3em;
+  font-size: 3em;
+}
+
+.transport-title {
+  border: 2px solid blue;
+}
+
+.commute-img {
+  width: 400px;
 }
 
 a {
@@ -20,7 +28,7 @@ div {
 img {
   display: flow;
 }
-ol {
+/* ol {
   text-align: center;
   width: 20%;
   margin: 0 2vw 2vh 2vw;
@@ -28,7 +36,7 @@ ol {
   display: flow;
   justify-content: space-evenly;
   font-family: 'Nunito Sans', sans-serif;
-}
+} */
 li:hover {
   font-size: 1.8em;
   transition: 0.2s ease;
