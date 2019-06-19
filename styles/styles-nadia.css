@@ -8,8 +8,12 @@ body {
   margin: 0;
   padding-top:30px;
   padding-bottom:25px;
-
   border: 5px;
+}
+
+h2 {
+  font-weight:bold;
+  font-style:italic;
 }
 
 ul.a {
@@ -60,17 +64,18 @@ p.a {
     top: 40%;
 }
 
-.tooltip {
+  /* Hover design */
+.hovering {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
   text-align: center;
 }
 
-.tooltip .tooltiptext {
+.hovering .hoveringtext {
   visibility: hidden;
   width: 120px;
-  background-color: #DEB5FF;
+  background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -81,11 +86,11 @@ p.a {
   z-index: 1;
 }
 
-.tooltip .tooltiptext {
+.hovering .hoveringtext {
   top: -5px;
   left: 105%;
 }
 
-.tooltip:hover .tooltiptext {
+.hovering:hover .hoveringtext {
   visibility: visible;
 }
