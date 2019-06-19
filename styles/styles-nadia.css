@@ -75,7 +75,7 @@ p.a {
 .hovering .hoveringtext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: #A6EBDB;
   color: #fff;
   text-align: center;
   border-radius: 6px;
