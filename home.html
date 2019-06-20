@@ -27,63 +27,67 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
 
+  <link href="styles/styles-home.css" rel="stylesheet">
+
 </head>
 
 <body onload="render()">
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-
-    <a class="navbar-brand" href="#">My-Green-Life</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="food/index.html">Food</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="fashion.html">Fashion</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="transport.html">Travel</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="working-out.html">Health & Fitness</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="energy.html">Energy</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
+  <h1 class="title"> My-Green-Life </h1>
   <canvas id="pieChart"></canvas>
-
 
   <!--This is the JavaScript for the piechart-->
   <script class="pieChart">
+  var labels = ["Travel", "Energy", "Fashion", "Health & Fitness",  "", "Food"];
+  var linkTo = ["transport.html", "energy.html", "fashion.html", "working-out.html",  "", "food/index.html"]
   //pie
+
+  var myPieChart;
   function render(){
     var ctxP = document.getElementById("pieChart").getContext('2d');
-    var myPieChart = new Chart(ctxP, {
+    myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
-        labels: ["Travel", "Food", "fashion", "Health & Fitness", "Energy"],
+        labels: labels,
         datasets: [{
-          data: [100, 100, 100, 100, 100],
-          backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
-          hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+          data: [100, 100, 100, 100, 150, 100],
+          backgroundColor: ["#DEB5FF", "#A5A8E8", "#C2E9FF", "#A6EBDB","#FFFFFF","#B5FFBF"],
+          hoverBackgroundColor: ["#DEB5FF", "#A5A8E8", "#C2E9FF", "#A6EBDB","#FFFFFF","#B5FFBF"],
+          hoverBorderColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"]
         }]
       },
       options: {
-        responsive: true
+        responsive: true,
+        legend: {
+          display: false
+        },
+        tooltips: {
+          enabled: false
+        },
+
       }
     });
+
+
+
+    document.getElementById("pieChart").onclick = function(evt) {
+      var activePoints = myPieChart.getElementsAtEvent(evt);
+      console.log(activePoints)
+      if (activePoints[0]) {
+        var chartData = activePoints[0]['_chart'].config.data;
+        var idx = activePoints[0]['_index'];
+        var label = chartData.labels[idx];
+
+        if (label==="") {
+          return;
+        }
+
+        var goToInd = labels.findIndex(function (element) {
+          return element === label;
+        });
+
+        window.location.href = linkTo[goToInd];
+      }
+    };
   }
   </script>
 
