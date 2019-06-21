@@ -105,8 +105,8 @@ p.a {
 
 /*----footer-----*/
 .footer {
-  wifth: 100%;
-  background-colour: #8b8f96
+  width: 100%;
+  background-color: #8b8f96
   padding: 60px 0px;
 }
 
@@ -115,4 +115,5 @@ p.a {
   font-family:verdana;
   font-weight:400;
   font-size:14px;
+  list-style:none;
 }
