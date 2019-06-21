@@ -105,9 +105,13 @@ p.a {
 
 /*----footer-----*/
 .footer {
+  position:fixed;
+  left:0;
+  right:0;
   width:100%;
   background-color:#8b8f96;
-  padding:60px 0px;
+  color:white;
+  text-align:center;
 }
 
 .footer nav {
