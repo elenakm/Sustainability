@@ -105,15 +105,28 @@ p.a {
 
 /*----footer-----*/
 .footer {
-  width: 100%;
-  background-color: #8b8f96
-  padding: 60px 0px;
+  width:100%;
+  background-color:#8b8f96;
+  padding:60px 0px;
+}
+
+.footer nav {
+  float:left;
+}
+
+.footer nav ul {
+}
+
+.footer nav ul li {
+  display:inline-block;
+  margin-left:20px;
+  list-style:none;
 }
 
 .footer nav ul li a {
   color:#fff;
   font-family:verdana;
   font-weight:400;
-  font-size:14px;
+  font-size:10px;
   list-style:none;
 }
