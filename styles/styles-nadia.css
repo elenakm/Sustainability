@@ -86,6 +86,7 @@ p.a {
   text-align: center;
   border-radius: 5px;
   padding: 5px 0;
+  font-size: 12px;
 
   /* Position the tooltip */
   position: absolute;
