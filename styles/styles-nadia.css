@@ -1,5 +1,5 @@
-body {
-   font-family:verdana;
+body{
+  padding-top: 70px;
 
 }
 .title {
@@ -8,7 +8,13 @@ body {
   margin: 0;
   padding-top:30px;
   padding-bottom:25px;
+
   border: 5px;
+}
+
+.intro p {
+  padding-top: 15px;
+  text-align: justify;
 }
 
 h2 {
