@@ -75,13 +75,14 @@ p.a {
   display: inline-block;
   border-bottom: 1px solid #A5A8E8;
   text-align: center;
+  padding: 5px;
 }
 
 .hovering .hoveringtext {
   visibility: hidden;
   width: 200px;
   background-color: #A5A8E8;
-  color: #686868;
+  color: #fff;
   text-align: center;
   border-radius: 5px;
   padding: 5px 0;
