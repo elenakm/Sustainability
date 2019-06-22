@@ -71,6 +71,19 @@ border: 5px;
   margin: 10px;
 }
 
+#snacks {
+  padding: 0;
+  margin: 10px;
+}
+
+#apparel {
+  padding: 0;
+  margin: 10px;
+}
+
+.list{
+  font-size:15px;
+}
 figure {
   margin: 0;
   padding: 0;
