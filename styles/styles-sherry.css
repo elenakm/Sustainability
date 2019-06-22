@@ -1,7 +1,7 @@
 body {
   padding-top: 70px;
 }
-.title {
+h1, h3 {
   text-align: center;
   background-color: #deb5ff;
   margin: 0;
@@ -9,11 +9,11 @@ body {
   padding-bottom:25px;
   border: 5px;
 }
-.p {
+p {
   padding-top: 15px;
   text-align: justify;
 }
-carousel-item:after {
+.carousel-item:after {
   content:"";
   display:block;
   position:absolute;
@@ -34,7 +34,7 @@ carousel-item:after {
     left: auto;
     top: 40%;
   }
-  .intro {
+  tips {
     padding-top: 20px;
     padding-bottom: 12px;;
     text-align: center;
