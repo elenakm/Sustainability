@@ -1,17 +1,18 @@
-.body {
+body {
   padding-top: 70px;
   padding-bottom: 0;
   min-height: 100%;
 }
+
 .title {
   text-align: center;
   background-color: #deb5ff;
   margin: 0;
-  padding-top:70px;
+  padding-top:30px;
   padding-bottom:25px;
   border: 5px;
 }
-.intro {
+.intro p {
   padding-top: 15px;
   text-align: justify;
   font-size: 20px;
@@ -33,16 +34,22 @@
 .carousel-item {
   max-height: 350px;
 }
-.carousel-caption {
-    color: white;
-    right: 28%;
-    text-align: center;
-    max-width: 500px;
-    left: auto;
-    top: 30%;
-  }
 
-  .tips {
+.carousel-caption {
+  color: white;
+  right: 30%;
+  position: absolute;
+  text-align: center;
+  max-width: 500px;
+  left: auto;
+  top: 40%;
+  margin:auto;
+}
+.transportfacts {
+  text-align: center;
+}
+
+.tips {
     padding-top: 20px;
     padding-bottom: 12px;;
     text-align: center;
@@ -52,68 +59,89 @@
     font-style: normal;
 
   }
-  .intro {
-    font-weight: bold;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: .7s ease;
-  }
-  #walk {
-    padding: 0;
-    margin: 10px;
-  }
-
-  #vehicle {
-    padding: 0;
-    margin: 10px;
-  }
-
-  #public {
-    padding: 0;
-    margin: 10px;
-  }
-  #cycle {
-    padding: 0;
-    margin: 10px;
-  }
-
-  .figure {
-    margin: 0;
-  }
-
-  .hovertext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  p {
     text-align: center;
+    padding-top: 0px;
+    font-style: oblique;
+    font-family: lora;
   }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 98%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #A5A8E8;
+}
 
-  .figure: hover overlay {
-    opacity: 1;
-    padding: 0;
-  }
-  #idea-blurb {
-    padding-bottom: 0;
-  }
+#walk {
+  padding: 0;
+  margin: 10px;
+}
 
-  footer {
-    padding-top:0;
-    width: 100%;
-  }
+#vehicle {
+  padding: 0;
+  margin: 10px;
+}
 
-  footer .container {
-    padding top: 0;
-  }
+#public {
+  padding: 0;
+  margin: 10px;
+}
+
+#cycle {
+  padding: 0;
+  margin: 10px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.hovertext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 50px;
+  width: 80%;
+  height: 100%;
+}
+
+.hovertext p {
+  font-size: 15px;
+  text-align: justify;
+  font-style: normal;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+  padding: 0;
+}
+
+p{
+  text-align: justify;
+}
+
+#idea-blurb {
+  padding-bottom: 0;
+}
+
+footer {
+  padding-top:0;
+  width: 100%;
+}
+
+footer .container {
+  padding top: 0;
+}
