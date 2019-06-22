@@ -4,14 +4,14 @@ h1{
   margin-left: 4rem;
   color: black;
   position: absolute;
-  top:45%;
+  top:48%;
   left:10%;
   font-size: 65px;
   font-weight: 400;
 }
 
 #pieChart {
-  position:absolute;
+  position: absolute;
   top:2.5%;
   z-index: -1;
 }

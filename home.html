@@ -33,7 +33,7 @@
 
 <body onload="render()">
   <main class=homepage-content>
-    <h1 class="title"> My-Green-Life </h1>
+    <h1 class="title"> My Green Life </h1>
     <canvas id="pieChart"></canvas>
     <!--
     <div class="page-titles">
@@ -61,9 +61,10 @@
         labels: labels,
         datasets: [{
           data: [100, 100, 100, 100, 150, 100],
-          backgroundColor: ["#DEB5FF", "#A5A8E8", "#C2E9FF", "#A6EBDB","#FFFFFF","#B5FFBF"],
-          hoverBackgroundColor: ["#DEB5FF", "#A5A8E8", "#C2E9FF", "#A6EBDB","#FFFFFF","#B5FFBF"],
-          hoverBorderColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"]
+          backgroundColor: ["#C2E9FF", "#C2E9FF", "#C2E9FF", "#C2E9FF","#FFFFFF","#C2E9FF"],
+          hoverBackgroundColor: ["#A5A8E8", "#A5A8E8", "#A5A8E8", "#A5A8E8","#FFFFFF","#A5A8E8"],
+          hoverBorderColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"],
+          hoverLabel: ["Travel", "Energy", "Fashion", "Health & Fitness",  "", "Food"]
         }]
       },
       options: {
