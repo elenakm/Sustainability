@@ -5,15 +5,45 @@ body{
 }
 
 .title{
-  background-color: #B5FFBF;
-  padding:20px;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+background-color: #B5FFBF;
+margin-top:80px;
+padding-top: 30px;
+padding-bottom: 25px;
+border: 5px;
 }
 
-/*.overlay {
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.simple-tips {
+  padding-top: 10px;
+  padding-bottom: 10px;;
+  text-align: center;
+  background-color: #A6EBDB;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.simple-tips h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.simple-tips p {
+  text-align: center;
+  padding-top: 0px;
+  font-style: italic;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -26,9 +56,19 @@ body{
   background-color: #A5A8E8;
 }
 
-#cover {
+#walking {
   padding: 0;
-  margin: 0px;
+  margin: 10px;
+}
+
+#natural {
+  padding: 0;
+  margin: 10px;
+}
+
+#reusable {
+  padding: 0;
+  margin: 10px;
 }
 
 figure {
@@ -51,31 +91,17 @@ figure {
   height: 100%;
 }
 
+.hovertext p {
+  font-size: 14px;
+}
+
 figure:hover .overlay {
   opacity: 1;
   padding: 0;
 }
-*/
-
-
-}
-.content {
-  padding-top: 10px;
-  padding-right: 80px;
-  padding-bottom: 10px;
-  padding-left: 80px;
-}
-
-p{
-  text-align: justify;
-}
 
 .list{
   text-align:left;
-}
-
-a{
-  color: black;
 }
 
 p{
