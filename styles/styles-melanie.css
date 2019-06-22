@@ -1,3 +1,6 @@
+.container {
+    width: 100%;
+}
 
 body {
   text-align: center;
@@ -5,10 +8,9 @@ body {
 }
 
 .carousel-item{
-  max-width: 1000px;
+
   max-height: 500px;
   margin-top: 25px;
-  margin-left: 150px;
 }
 
 .title {
@@ -25,11 +27,22 @@ body {
  margin-right: 40px;
  margin-top: 50px;
  margin-bottom: 40px;
+ text-align:center;
 }
 .info-brands{
 
 }
 
-footer{
+fo
+#idea-blurb {
+  padding-bottom: 0;
+}
 
+footer {
+  padding-top:0;
+  width: 100%;
+}
+
+footer .container {
+  padding top: 0;
 }
