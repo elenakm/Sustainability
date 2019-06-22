@@ -12,10 +12,31 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
-    `<link href="css/styles.css" rel="stylesheet">`
+  <link href="css/styles.css" rel="stylesheet">
 
   <!--linking fonts-->
   <link href='https://fonts.googleapis.com/css?family=Advent%20Pro' rel='stylesheet'>
+
+  <!--mdbootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
+
+  <!--JavaScript for mdbootstrap-->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+
 
 </head>
 
@@ -23,7 +44,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-    <a class="navbar-brand" href="#">My-Green-Life</a>
+    <a class="navbar-brand" href="#" style ="color:#6BFF91;">My-Green-Life</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -112,6 +133,7 @@
 
         <div class="small-steps">
           <h3>SMALL STEPS MAKE A DIFFERENCE.</h3>
+          <p>hover over each image to discover more </p>
         </div>
 
         <!-- columns -->
@@ -125,89 +147,142 @@
                   <h1>DIET</h1>
                   <p> There has been an overall increase in meat consumption, which
                     means that there is a conversion of more and more of the world’s arable
-                    land to growing grain for feeding to animals, rather than directly to humans.
-                    The inherent inefficiency of cycling crops through animals to produce
-                    food means that more land and resources must be devoted to agriculture. <br>
+                    land to growing grain for feeding to animals, rather than directly to humans. <br> <br>
                     Are vegetarian and vegan diets are the best solution in tackling this? Not entirely.
                     Completely eliminating meat from your diet ensues a BIG change – for anyone.
                     To compromise for such a change A healthy diet should work backwards from the
                     most sustainable way to farm, and that ideally means eating the foods produced
-                    by mixed farms using crop rotations which include a fertility building phase, usually
-                    of grass and clover grazed by cows and sheep, but also pastured pigs and poultry.</p>
+                    by mixed farms.</p>
 
-                </div>
-              </div>
-            </figure>
-          </div>
-
-          <div id="shopping" class="col-sm">
-            <figure class="figure">
-              <img class="img-fluid" src="images/market.jpg" alt"image not found"/>
-              <div class="overlay">
-                <div class="hovertext">
-                  <h1>SHOPPING</h1>
-                  <p>Buying direct from the butcher’s or a farmers’ market is a guarantee
-                    of short supply chains and cutting out the middle-men helps keep costs down.
-                    The scale and standardisation required means that the major retailers cannot
-                    match the local distinctiveness, or choice of cuts offered by a good local
-                    butcher or quality of produce from a farmer’s market.</p>
-                </div>
-              </div>
-            </figure>
-          </div>
-
-          <div id="waste" class="col-sm">
-            <figure class="figure">
-                <img class="img-fluid" src="images/foodwaste2.jpg" alt"image not found"/>
-                <div class="overlay">
-                  <div class="hovertext">
-                    <h1>FOOD WASTE</h1>
-                    <p>When waste is sent to landfill, air cannot get to the organic waste.
-                       Therefore as the waste breaks down it creates a harmful greenhouse gas,
-                       methane, which damages the Earth's atmosphere.<br>
-                       One of the main things you can do is to reduce the amount of waste sent
-                       to landfill. Even for households that are already composting, new research
-                       has found that almost half of the food waste in their rubbish bins could
-                       have been composted. </p>
                   </div>
                 </div>
-            </figure>
-          </div>
+              </figure>
+            </div>
 
-        </div>
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Click this modal!
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+            <div id="shopping" class="col-sm">
+              <figure class="figure">
+                <img class="img-fluid" src="images/market.jpg" alt"image not found"/>
+                <div class="overlay">
+                  <div class="hovertext">
+                    <h1>SHOPPING</h1>
+                    <p>Buying directly from the butcher’s or a farmers’ market is a guarantee
+                      of short supply chains and cutting out the middle-men helps keep costs down.
+                      <br> <br> The scale and standardisation required means that the major retailers cannot
+                      match the local distinctiveness, or choice of cuts offered by a good local
+                      butcher or quality of produce from a farmer’s market.</p>
+                    </div>
+                  </div>
+                </figure>
               </div>
-              <div class="modal-body">
-                This is the text that goes into the modal. Probably something important.
+
+              <div id="waste" class="col-sm">
+                <figure class="figure">
+                  <img class="img-fluid" src="images/foodwaste2.jpg" alt"image not found"/>
+                  <div class="overlay">
+                    <div class="hovertext">
+                      <h1>FOOD WASTE</h1>
+                      <p>When waste is sent to landfill, air cannot get to the organic waste.
+                        Therefore as the waste breaks down it creates a harmful greenhouse gas,
+                        methane, which damages the Earth's atmosphere.<br><br>
+                        One of the main things you can do is to reduce the amount of waste sent
+                        to landfill. Even for households that are already composting, new research
+                        has found that almost half of the food waste in their rubbish bins could
+                        have been composted. </p>
+                      </div>
+                    </div>
+                  </figure>
+                </div>
+
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Share your sustainable idea!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Name:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Email:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                          <label id="idea-blurb" for="message-text" class="col-form-label">What's your idea?</label>
+                          <p style="font-style: italic; font-size: 12px;" >let us know if you have any other ideas for a more sustainable lifestyle!</p>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </main><!-- /.container -->
+          </main>
+              <!-- Footer-->
+              <footer class="page-footer font-small unique-color-dark pt-4">
 
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-      <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-      <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-    </body>
-    </html>
+                <!-- Footer Elements -->
+                <div class="container">
+
+                  <!-- Call to action -->
+                  <ul class="list-unstyled list-inline text-center py-2">
+
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-fb mx-1">
+                        <i class="fab fa-facebook-f"> </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-tw mx-1">
+                        <i class="fab fa-twitter"> </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-gplus mx-1">
+                        <i class="fab fa-google-plus-g"> </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Have ideas?
+                      </button>
+
+
+                    </li>
+                  </ul>
+                  <!-- Call to action -->
+
+                </div>
+                <!-- Footer Elements -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2018 Copyright: Nicole, Elena, Nadia, Melanie, Sherry
+                </div>
+                <!-- Copyright -->
+
+              </footer>
+              <!-- Footer -->
+
+
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+            <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+            <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+          </body>
+          </html>

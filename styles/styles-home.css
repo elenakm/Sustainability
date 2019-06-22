@@ -15,3 +15,8 @@ h1{
   top:2.5%;
   z-index: -1;
 }
+
+footer {
+  padding-top: 5px;
+  max-height: 50px;
+}
