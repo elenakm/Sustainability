@@ -41,7 +41,7 @@
     left: auto;
     top: 30%;
   }
-  
+
   .tips {
     padding-top: 20px;
     padding-bottom: 12px;;
@@ -104,4 +104,16 @@
   .figure: hover overlay {
     opacity: 1;
     padding: 0;
+  }
+  #idea-blurb {
+    padding-bottom: 0;
+  }
+
+  footer {
+    padding-top:0;
+    width: 100%;
+  }
+
+  footer .container {
+    padding top: 0;
   }
