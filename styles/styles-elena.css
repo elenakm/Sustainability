@@ -3,6 +3,16 @@ body{
   padding-bottom: 0;
   min-height: 100%;
 }
+
+.title{
+  background-color: #B5FFBF;
+  padding:20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /*.overlay {
   position: absolute;
   top: 0;
@@ -44,18 +54,18 @@ figure {
 figure:hover .overlay {
   opacity: 1;
   padding: 0;
-}*/
+}
+*/
 
-.h1{
-  padding-top: 100px;
+
 }
 .content {
   padding-top: 10px;
   padding-right: 80px;
   padding-bottom: 10px;
   padding-left: 80px;
-
 }
+
 p{
   text-align: justify;
 }
