@@ -1,43 +1,93 @@
 body {
-  margin: 0px;
+  padding-top: 70px;
 }
-h1 {
+h1, h3 {
   text-align: center;
-  font-size: 5em;
+  background-color: #deb5ff;
+  margin: 0;
+  padding-top:30px;
+  padding-bottom:25px;
+  border: 5px;
 }
-h2 { text-align: center;
-  font-size: 3em;
+.p {
+  padding-top: 15px;
+  text-align: justify;
 }
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+.carousel-item {
+  max-height: 350px;
+}
+.carousel-caption {
+    color: white;
+    right: 30%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    top: 40%;
+  }
+  .intro {
+    padding-top: 20px;
+    padding-bottom: 12px;;
+    text-align: center;
+    background-color: #C2E9FF;
+    margin-bottom: 30px;
+  }
+  .intro {
+    font-weight: bold;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: pink
+  }
+  #walk {
+    padding: 0;
+    margin: 10px;
+  }
 
-.transport-title {
-  border: 2px solid blue;
-}
+  #vehicle {
+    padding: 0;
+    margin: 10px;
+  }
 
-.commute-img {
-  width: 400px;
-}
+  #publictransport {
+    padding: 0;
+    margin: 10px;
+  }
 
-a {
-  font-style: italic;
-  font-weight: bold;
-}
-div {
-  min-height: 100vh;
-  width: 100vw;
-}
-img {
-  display: flow;
-}
-/* ol {
-  text-align: center;
-  width: 20%;
-  margin: 0 2vw 2vh 2vw;
-  font-size: 1.5em;
-  display: flow;
-  justify-content: space-evenly;
-  font-family: 'Nunito Sans', sans-serif;
-} */
-li:hover {
-  font-size: 1.8em;
-  transition: 0.2s ease;
-}
+  .figure {
+    margin: 0;
+  }
+
+  .hovertext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .figure: hover overlay {
+    opacity: 1;
+    padding: 0;
+  }
