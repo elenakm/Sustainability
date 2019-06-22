@@ -41,12 +41,16 @@
     left: auto;
     top: 30%;
   }
+  
   .tips {
     padding-top: 20px;
     padding-bottom: 12px;;
     text-align: center;
     background-color: #C2E9FF;
     margin-bottom: 30px;
+    font-family: lora;
+    font-style: normal;
+
   }
   .intro {
     font-weight: bold;
@@ -61,7 +65,6 @@
     height: 100%;
     opacity: 0;
     transition: .7s ease;
-    background-color: pink
   }
   #walk {
     padding: 0;
@@ -73,7 +76,11 @@
     margin: 10px;
   }
 
-  #publictransport {
+  #public {
+    padding: 0;
+    margin: 10px;
+  }
+  #cycle {
     padding: 0;
     margin: 10px;
   }
@@ -83,7 +90,7 @@
   }
 
   .hovertext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;

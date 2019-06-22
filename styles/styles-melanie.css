@@ -1,0 +1,35 @@
+
+body {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.carousel-item{
+  max-width: 1000px;
+  max-height: 500px;
+  margin-top: 25px;
+  margin-left: 150px;
+}
+
+.title {
+    background-color: #A5A8E8;
+    text-align:center;
+  }
+
+.main-heading{
+  background-color: #A5A8E8;
+  padding-top:25px;
+  padding-bottom:25px;
+  border:5px;
+  margin-left: 40px;
+ margin-right: 40px;
+ margin-top: 50px;
+ margin-bottom: 40px;
+}
+.info-brands{
+
+}
+
+footer{
+
+}

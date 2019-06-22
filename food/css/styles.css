@@ -34,24 +34,23 @@ body{
 }
 
 .carousel-caption {
-    color: white;
-    right: 30%;
-    position: absolute;
-    text-align: center;
-    max-width: 500px;
-    left: auto;
-    top: 40%;
-    margin:auto;
+  color: white;
+  right: 30%;
+  position: absolute;
+  text-align: center;
+  max-width: 500px;
+  left: auto;
+  top: 40%;
+  margin:auto;
 }
 
 .foodfacts {
   text-align: center;
 }
 
-
 .small-steps {
   padding-top: 20px;
-  padding-bottom: 8px;
+  padding-bottom: 12px;;
   text-align: center;
   background-color: #C2E9FF;
   /*margin-bottom: 30px;*/
@@ -114,7 +113,6 @@ figure {
   padding-top: 50px;
   width: 80%;
   height: 100%;
-
 }
 
 .hovertext p {
@@ -124,7 +122,6 @@ figure {
 figure:hover .overlay {
   opacity: 1;
   padding: 0;
-
 }
 
 #idea-blurb {
@@ -139,9 +136,6 @@ footer {
 footer .container {
   padding top: 0;
 }
-
-
-
 
 /*DIET CSS*/
 .intro-diets h1 {
