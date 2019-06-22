@@ -1,7 +1,7 @@
-body {
+.body {
   padding-top: 70px;
 }
-h1, h3 {
+.title {
   text-align: center;
   background-color: #deb5ff;
   margin: 0;
@@ -13,7 +13,7 @@ h1, h3 {
   padding-top: 15px;
   text-align: justify;
 }
-.carousel-item:after {
+carousel-item:after {
   content:"";
   display:block;
   position:absolute;
