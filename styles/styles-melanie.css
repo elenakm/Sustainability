@@ -22,6 +22,33 @@ body {
   .title h1{
     font-weight: bold;
   }
+
+  .carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.4);
+  }
+
+  .carousel-item {
+    max-height: 350px;
+  }
+
+  .carousel-caption {
+    color: white;
+    right: 30%;
+    position: absolute;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    top: 40%;
+    margin:auto;
+  }
+
 .info-brands{
   margin-top: 20px;
   text-align: center;
@@ -29,6 +56,10 @@ body {
 
   .info-brands h4{
     font-weight: bold;
+  }
+
+  .info-brands p{
+    text-align: justify;
   }
 
 .brands {
