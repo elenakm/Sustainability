@@ -101,7 +101,7 @@ figure {
   padding:20px;
   text-align: center;
   margin-left:25px;
-  max-width:
+  width:auto;
 }
 
 .tips .hoveringtext {
