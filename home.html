@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SUSTAINABILITY</title>
+  <title>Sustainable Food: making wiser choices</title>
 
+  <!-- ADD BOOTSTRAP CORE HERE!!!! -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="styles/styles-home.css" rel="stylesheet">
+
+  <!--linking fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Advent%20Pro' rel='stylesheet'>
+
+  <!--mdbootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -27,86 +37,86 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
 
-  <link href="styles/styles-home.css" rel="stylesheet">
 
 </head>
 
-<body onload="render()">
-  <main class=homepage-content>
-    <h1 class="title"> My Green Life </h1>
-    <canvas id="pieChart"></canvas>
-    <!--
-    <div class="page-titles">
-      <h3 class="food-title">Food</h3>
-      <h3 class="travel-title">Travel</h3>
-      <h3 class="fashion-title">Fashion</h3>
-      <h3 class="exercise-title">Exercise</h3>
-      <h3 class="energy-title">Energy</h3>
+<body>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h1> My Green Life </h1>
+      Hover over the images to explore how you can make greener decisions!
     </div>
-  -->
-  </main>
+    <div class="col-sm">
+      <figure class="figure">
+        <p>Food</p>
+        <div class="test">
+        <a href="food/index.html">
+          <img class="img-fluid" src="images-home2/food.jpg" alt="image not found"/>
+          <div class="overlay">
+          </div>
+        </a>
+        </div>
+      </figure>
+    </div>
+    <div class="col-sm">
+      <figure class="figure">
+        <p>Fashion</p>
+        <div class="test">
+        <a href="fashion.html">
+          <img class="img-fluid" src="images-home2/fashion.jpg" alt="image not found"/>
+          <div class="overlay">
+          </div>
+        </a>
+        </div>
+      </figure>
+    </div>
+    <div class="col-sm">
+      <figure class="figure">
+        <p>Transport</p>
+        <div class="test">
+        <a href="transport.html">
+          <img class="img-fluid" src="images-home2/transport.jpg" alt="image not found"/>
+          <div class="overlay">
+          </div>
+        </a>
+        </div>
+      </figure>
+    </div>
+    <div class="col-sm">
+      <figure class="figure">
+        <p>Fitness</p>
+        <div class="test">
+        <a href="working-out.html">
+          <img class="img-fluid" src="images-home2/workout.jpg" alt="image not found"/>
+          <div class="overlay">
+          </div>
+        </a>
+        </div>
+      </figure>
+    </div>
+    <div class="col-sm">
+      <figure class="figure">
+        <p>Energy</p>
+        <div class="test">
+        <a href="energy.html">
+          <img class="img-fluid" src="images-home2/energy.jpg" alt="image not found"/>
+          <div class="overlay">
+          </div>
+        </a>
+        </div>
+      </figure>
+    </div>
+  </div>
+</div>
 
-  <!--This is the JavaScript for the piechart-->
-  <script class="pieChart">
-  var labels = ["Travel", "Energy", "Fashion", "Health & Fitness",  "", "Food"];
-  var linkTo = ["transport.html", "energy.html", "fashion.html", "working-out.html",  "", "food/index.html"]
-  //pie
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
-  var myPieChart;
-  function render(){
-    var ctxP = document.getElementById("pieChart").getContext('2d');
-    myPieChart = new Chart(ctxP, {
-      type: 'pie',
-      data: {
-        labels: labels,
-        datasets: [{
-          data: [100, 100, 100, 100, 150, 100],
-          backgroundColor: ["#C2E9FF", "#C2E9FF", "#C2E9FF", "#C2E9FF","#FFFFFF","#C2E9FF"],
-          hoverBackgroundColor: ["#A5A8E8", "#A5A8E8", "#A5A8E8", "#A5A8E8","#FFFFFF","#A5A8E8"],
-          hoverBorderColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"],
-          hoverLabel: ["Travel", "Energy", "Fashion", "Health & Fitness",  "", "Food"]
-        }]
-      },
-      options: {
-        responsive: true,
-        legend: {
-          display: false
-        },
-        tooltips: {
-          enabled: false
-        },
-      }
-    });
-
-
-    document.getElementById("pieChart").onclick = function(evt) {
-      var activePoints = myPieChart.getElementsAtEvent(evt);
-      console.log(activePoints)
-      if (activePoints[0]) {
-        var chartData = activePoints[0]['_chart'].config.data;
-        var idx = activePoints[0]['_index'];
-        var label = chartData.labels[idx];
-
-        if (label==="") {
-          return;
-        }
-
-        var goToInd = labels.findIndex(function (element) {
-          return element === label;
-        });
-
-        window.location.href = linkTo[goToInd];
-      }
-    };
-  }
-
-  </script>
-
-  <!---
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-  <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-  <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
--->
 </body>
 </html>
