@@ -4,6 +4,9 @@ body {
   min-height: 100%;
 }
 
+h3{
+  text-align: center;
+}
 .title {
   text-align: center;
   background-color: #deb5ff;
@@ -13,13 +16,12 @@ body {
   border: 5px;
 }
 .intro p {
-  padding-top: 15px;
-  text-align: justify;
-  font-size: 20px;
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
+text-align: center;
+font-family: Roboto,sans-serif;
+font-style: normal;
+padding-top: 15px;
+font-weight: 300;
+font-size: 20px
 }
 .carousel-item:after {
   content:"";
@@ -56,8 +58,9 @@ body {
     text-align: center;
     background-color: #C2E9FF;
     margin-bottom: 30px;
-    font-family: lora;
+    margin-top: 30px;
     font-style: normal;
+
 
   }
   p {
