@@ -1,9 +1,17 @@
+
+body {
+  background-image:url("../images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 h1{
   /*transform: rotate(270deg);
   transform-origin: bottom left;*/
   margin-left: 4rem;
   color: black;
-  position: absolute;
+  position:absolute;
   top:48%;
   left:10%;
   font-size: 65px;
