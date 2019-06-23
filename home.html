@@ -34,6 +34,7 @@
 <body onload="render()">
   <main class=homepage-content>
     <h1 class="title"> My Green Life </h1>
+
     <canvas id="pieChart"></canvas>
     <!--
     <div class="page-titles">
@@ -44,7 +45,7 @@
       <h3 class="energy-title">Energy</h3>
     </div>
   -->
-  </main>
+</main>
 
   <!--This is the JavaScript for the piechart-->
   <script class="pieChart">
@@ -61,9 +62,10 @@
         labels: labels,
         datasets: [{
           data: [100, 100, 100, 100, 150, 100],
-          backgroundColor: ["#C2E9FF", "#C2E9FF", "#C2E9FF", "#C2E9FF","#FFFFFF","#C2E9FF"],
-          hoverBackgroundColor: ["#A5A8E8", "#A5A8E8", "#A5A8E8", "#A5A8E8","#FFFFFF","#A5A8E8"],
-          hoverBorderColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"],
+          backgroundColor: ["#C2E9FF", "#C2E9FF", "#C2E9FF", "#C2E9FF","rgba(246,245,245,0)","#C2E9FF"],
+          hoverBackgroundColor: ["#A5A8E8", "#A5A8E8", "#A5A8E8", "#A5A8E8","rgba(246,245,245,0)","#A5A8E8"],
+          Border: ["rgba(246,245,245,0)", "rgba(246,245,245,0)", "rgba(246,245,245,0)", "rgba(246,245,245,0)", "rgba(246,245,245,0)", "rgba(246,245,245,0)"],
+          hoverBorderColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "rgba(246,245,245,0)", "#FFFFFF"],
           hoverLabel: ["Travel", "Energy", "Fashion", "Health & Fitness",  "", "Food"]
         }]
       },
@@ -75,7 +77,6 @@
         tooltips: {
           enabled: false
         },
-
       }
     });
 
@@ -100,8 +101,8 @@
       }
     };
   }
-  </script>
 
+  </script>
 
 
   <!---
