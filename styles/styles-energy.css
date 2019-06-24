@@ -4,7 +4,7 @@ body{
 }
 .title {
   text-align: center;
-  background-color: #A6EBDB;
+  background-color: #C2E9FF;
   margin: 0;
   padding-top:30px;
   padding-bottom:25px;
@@ -75,13 +75,40 @@ h2 {
 
 figure {
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  text-align: justify;
+  background-color: white;
 }
+
+.figure {
+  background-color: #FFFCEB;
+  height: 500px;
+  padding-right: 10px;
+}
+
+.figure ul {
+  padding-right: 10px;
+}
+figure h2 {
+  padding: 20px;
+  background-color: #FDF7AB;
+  text-align: center;
+  font-weight: 300;
+}
+
+figure p {
+  padding-top:2px;
+  padding:15px;
+
+}
+
+
 
 .title2 {
   text-align:center;
   background-color: #B5FFBF;
   margin: 0;
+  margin-bottom: 15px;
   padding-top:30px;
   padding-bottom:25px;
   font-weight:bold;
@@ -107,8 +134,8 @@ figure {
 .tips .hoveringtext {
   visibility: hidden;
   width: 200px;
-  background-color: #696969;
-  color: #fff;
+  background-color:#A6EBDB;
+  color: #003B07;
   text-align: center;
   border-radius: 5px;
   padding: 10px;
@@ -120,7 +147,8 @@ figure {
 
 .tips .hoveringtext {
   top: -5px;
-  left: 105%;
+  left: 70%;
+  font-size: 12px;
 }
 
 .tips:hover .hoveringtext {

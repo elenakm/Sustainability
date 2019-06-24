@@ -4,7 +4,7 @@
 
 body {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .carousel-item{
@@ -19,7 +19,7 @@ text-align: center;
 padding-top: 25PX;
 padding-bottom: 25px;
 border: 5px;
-margin-top: 30PX;
+margin-top: 0;
 }
   .title h1{
     font-weight: bold;
