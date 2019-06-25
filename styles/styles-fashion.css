@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+}
+
+body {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.carousel-item{
+
+  max-height: 500px;
+  margin-top: 25px;
+}
+
+.title{
+background-color: #B5FFBF;
+text-align: center;
+padding-top: 25PX;
+padding-bottom: 25px;
+border: 5px;
+margin-top: 0;
+}
+  .title h1{
+    font-weight: bold;
+  }
+
+  .carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.4);
+  }
+
+  .carousel-item {
+    max-height: 450px;
+  }
+
+  .carousel-caption {
+    color: white;
+    right: 30%;
+    position: absolute;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    top: 40%;
+    margin:auto;
+  }
+
+.info-brands{
+  margin-top: 20px;
+  text-align: center;
+}
+
+  .info-brands h4{
+    font-weight: bold;
+  }
+
+  .info-brands p{
+    text-align: justify;
+  }
+
+.brands {
+  background-color: #DEB5FF;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding:12px;
+}
+.brands h5 {
+  font-weight: bold;
+}
+.row{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#idea-blurb {
+  padding-bottom: 0;
+}
+
+footer {
+  padding-top:0;
+  width: 100%;
+}
+
+footer .container {
+  padding top: 0;
+}
