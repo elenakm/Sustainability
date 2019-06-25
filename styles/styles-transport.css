@@ -1,0 +1,149 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 0;
+  min-height: 100%;
+}
+
+h3{
+  text-align: center;
+}
+.title {
+  text-align: center;
+  background-color: #deb5ff;
+  margin: 0;
+  padding-top:30px;
+  padding-bottom:25px;
+  border: 5px;
+}
+.intro p {
+text-align: left;
+font-family: Roboto,sans-serif;
+font-style: normal;
+padding-top: 15px;
+font-weight: 300;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+
+.carousel-item {
+  max-height: 350px;
+}
+
+.carousel-caption {
+  color: white;
+  right: 30%;
+  position: absolute;
+  text-align: center;
+  max-width: 500px;
+  left: auto;
+  top: 40%;
+  margin:auto;
+}
+.transportfacts {
+  text-align: center;
+}
+
+.tips {
+    padding-top: 20px;
+    padding-bottom: 12px;;
+    text-align: center;
+    background-color: #C2E9FF;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-style: normal;
+
+
+  }
+  p {
+    text-align: center;
+    padding-top: 0px;
+    font-style: oblique;
+  }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 98%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #1B3964;
+}
+
+#walk {
+  padding: 0;
+  margin: 10px;
+}
+
+#vehicle {
+  padding: 0;
+  margin: 10px;
+}
+
+#public {
+  padding: 0;
+  margin: 10px;
+}
+
+#cycle {
+  padding: 0;
+  margin: 10px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.hovertext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 50px;
+  width: 80%;
+  height: 100%;
+}
+
+.hovertext p {
+  font-size: 15px;
+  text-align: justify;
+  font-style: normal;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+  padding: 0;
+}
+
+p{
+  text-align: justify;
+}
+
+#idea-blurb {
+  padding-bottom: 0;
+}
+
+footer {
+  padding-top:0;
+  width: 100%;
+}
+
+footer .container {
+  padding top: 0;
+}

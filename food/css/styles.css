@@ -58,6 +58,7 @@ body{
 
 .small-steps h3 {
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .small-steps p {
@@ -76,7 +77,11 @@ body{
   height: 97%;
   opacity: 0;
   transition: .7s ease;
-  background-color: #A5A8E8;
+  background-color: #7CCFCC;
+}
+
+.row {
+  padding-top: 10px;
 }
 
 #waste {

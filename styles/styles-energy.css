@@ -1,0 +1,172 @@
+body{
+  padding-top: 70px;
+
+}
+.title {
+  text-align: center;
+  background-color: #C2E9FF;
+  margin: 0;
+  padding-top:30px;
+  padding-bottom:25px;
+  font-weight:bold;
+  border: 5px;
+}
+
+.title h1{
+  font-weight: bold;
+}
+
+.intro p {
+  padding-top: 15px;
+  text-align: justify;
+}
+
+h2 {
+  font-weight:bold;
+}
+
+  /* Carousel design */
+  .intro p {
+    padding-top: 15px;
+    text-align: justify;
+  }
+
+  .carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.4);
+  }
+
+  .carousel-item {
+    max-height: 350px;
+  }
+
+  .carousel-caption {
+    color: white;
+    right: 30%;
+    position: absolute;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    top: 40%;
+    margin:auto;
+  }
+
+/*Grid design*/
+#switch {
+  padding: 0;
+  margin: 10px;
+}
+
+#layer {
+  padding: 0;
+  margin: 10px;
+}
+
+#smart {
+  padding: 0;
+  margin: 10px;
+}
+
+figure {
+  margin: 0;
+  padding: 10px;
+  text-align: justify;
+  background-color: white;
+}
+
+.figure {
+  background-color: #FFFCEB;
+  height: 500px;
+  padding-right: 10px;
+}
+
+.figure ul {
+  padding-right: 10px;
+}
+figure h2 {
+  padding: 20px;
+  background-color: #FDF7AB;
+  text-align: center;
+  font-weight: 300;
+}
+
+figure p {
+  padding-top:2px;
+  padding:15px;
+
+}
+
+
+
+.title2 {
+  text-align:center;
+  background-color: #B5FFBF;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-top:30px;
+  padding-bottom:25px;
+  font-weight:bold;
+  border: 5px;
+}
+.title2 h3{
+  font-weight:bold;
+}
+.title2 h4{
+  font-style: italic;
+}
+
+
+  /* Hover design */
+.tips {
+  position:relative;
+  padding:20px;
+  text-align: center;
+  margin-left:25px;
+  width:auto;
+}
+
+.tips .hoveringtext {
+  visibility: hidden;
+  width: 200px;
+  background-color:#A6EBDB;
+  color: #003B07;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tips .hoveringtext {
+  top: -5px;
+  left: 70%;
+  font-size: 12px;
+}
+
+.tips:hover .hoveringtext {
+  visibility: visible;
+}
+
+
+#idea-blurb {
+  padding-bottom: 0;
+}
+
+footer {
+  padding-top:0;
+  width: 100%;
+  margin:auto;
+}
+
+footer .container {
+  padding top: 0;
+  width: 100%;
+}

@@ -1,0 +1,157 @@
+body{
+  padding-top:70px;
+  padding-bottom: 0;
+  min-height: 100%;
+}
+h3{
+  text-align: center;
+}
+
+.title{
+background-color: #B5C5FF;
+padding-top: 30px;
+padding-bottom: 25px;
+border: 5px;
+}
+
+.intro {
+  margin:10px;
+
+}
+.intro p{
+  text-align: center;
+}
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.simple-tips h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.simple-tips p {
+  text-align: center;
+  padding-top: 0px;
+  font-style: italic;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 98%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #A5A8E8;
+}
+
+#walking {
+  padding: 0;
+  margin: 10px;
+}
+
+#natural {
+  padding: 0;
+  margin: 10px;
+}
+
+#reusable {
+  padding: 0;
+  margin: 10px;
+}
+
+#snacks {
+  padding: 0;
+  margin: 10px;
+}
+
+#apparel {
+  padding: 0;
+  margin: 10px;
+}
+
+.list{
+  font-size:15px;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.title2 {
+  Background-color: #DEB5FF;
+  margin-top: -13px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border: 5px;
+}
+
+.title2 h3{
+  font-weight: bold;
+
+}
+
+.hovertext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 50px;
+  width: 80%;
+  height: 100%;
+}
+
+.hovertext p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+  padding: 0;
+}
+
+.list{
+  text-align:left;
+}
+
+p{
+  text-align: justify;
+}
+
+#idea-blurb {
+  padding-bottom: 0;
+}
+
+#apparel .overlay {
+  background-color: #1B3964;
+}
+
+#reusable .overlay {
+  background-color: #1B3964;
+}
+
+footer {
+  padding-top:0;
+  width: 100%;
+}
+
+footer .container {
+  padding top: 0;
+}
